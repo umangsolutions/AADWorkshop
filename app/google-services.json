@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "813641248638",
+    "firebase_url": "https://aad-workshop.firebaseio.com",
+    "project_id": "aad-workshop",
+    "storage_bucket": "aad-workshop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813641248638:android:73f9757bdbaa8309ef8d2f",
+        "android_client_info": {
+          "package_name": "com.example.umang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813641248638-p81703de90d8m5ivg60p4kbb44og7d2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4rbkzFUlkZWRObZ69J6V75T5S9Mdnlpg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813641248638-p81703de90d8m5ivg60p4kbb44og7d2f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
