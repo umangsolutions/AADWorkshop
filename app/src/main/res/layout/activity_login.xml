@@ -49,8 +49,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:drawableStart="@drawable/ic_baseline_email_24"
+                android:drawableLeft="@drawable/ic_baseline_email_24"
                 android:fontFamily="@font/alegreya"
                 android:hint="Enter Email Id"
+                android:drawablePadding="10dp"
                 android:inputType="textEmailAddress"
                 android:padding="10dp"
                 android:textSize="16dp" />
@@ -69,8 +72,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:ems="10"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawableStart="@drawable/ic_baseline_lock_24"
                 android:fontFamily="@font/alegreya"
                 android:hint="Enter Password"
+                android:drawablePadding="10dp"
                 android:inputType="textPassword"
                 android:padding="10dp"
                 android:textSize="16dp" />

@@ -74,10 +74,14 @@ public class LoginActivity extends AppCompatActivity {
         mAuth.signInWithEmailAndPassword(userName,userPassword).addOnCompleteListener(LoginActivity.this, new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
+
                 if(task.isSuccessful()) {
+
+
                     Toast.makeText(LoginActivity.this, "Logged in Successfully !", Toast.LENGTH_SHORT).show();
 
                     Intent intent = new Intent(LoginActivity.this,WelcomeActivity.class);
+                    intent.putExtra("email",userName);
                     startActivity(intent);
 
                 } else {
@@ -86,4 +90,5 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
     }
+
 }
