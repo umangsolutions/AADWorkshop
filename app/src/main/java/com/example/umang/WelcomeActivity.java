@@ -38,6 +38,7 @@ public class WelcomeActivity extends AppCompatActivity {
 
         userEmail = getIntent().getStringExtra("email");
 
+        // Write the query to fetch data based on EmailID
         Query query = myRef.orderByChild("email").equalTo(userEmail);
 
         query.addListenerForSingleValueEvent(new ValueEventListener() {
